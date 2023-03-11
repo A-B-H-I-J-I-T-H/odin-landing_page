@@ -1,0 +1,162 @@
+html {
+    font-family: roboto;
+}
+
+body {
+    margin: 0;
+}
+
+.container1,
+.footer {
+    background-color: #1F2937;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px 30px;
+    justify-content: center;
+}
+
+.content1 {
+    display: flex;
+    margin: 100px 0;
+}
+
+.mainimg {
+    margin-left: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.herotext > .button {
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 5px 20px;
+    border-color: white;
+}
+
+ul,
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.heromain {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: auto;
+    justify-content: stretch;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px 100px;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+button,
+.container4 {
+    background-color: #3882f6;
+    color: white;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    padding: 150px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    font-size: large;
+    color: #1F2937;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+.container4 {
+    margin: 100px 150px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.main {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer {
+    padding: 50px 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
